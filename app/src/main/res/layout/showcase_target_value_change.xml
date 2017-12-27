@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/target_value_change_showcase_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/subject"
+        android:layout_width="@dimen/circle_holder_size"
+        android:layout_height="@dimen/circle_holder_size"
+        android:layout_marginLeft="@dimen/spacing"
+        android:layout_marginStart="@dimen/spacing"
+        android:layout_marginTop="@dimen/spacing"
+        android:src="@drawable/shape_full_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/target"
+        android:layout_width="@dimen/circle_holder_size"
+        android:layout_height="@dimen/circle_holder_size"
+        android:layout_marginBottom="@dimen/spacing"
+        android:layout_marginEnd="@dimen/spacing"
+        android:layout_marginRight="@dimen/spacing"
+        android:src="@drawable/shape_empty_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

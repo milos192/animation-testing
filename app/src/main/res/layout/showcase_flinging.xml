@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/squares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#FF0033"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#F10E46"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#E31C58"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#D52A6B"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#C7387D"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#B94690"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#AC53A2"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#9E61B5"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#906FC7"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#827DDA"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#748BEC"
+            android:padding="@dimen/spacing" />
+
+        <View
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_margin="@dimen/spacing"
+            android:background="#6699FF"
+            android:padding="@dimen/spacing" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

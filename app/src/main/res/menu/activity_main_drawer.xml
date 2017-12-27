@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/target_value_change_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Target Value Change"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/target_value_change_physics_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Physics Target Value Change"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/fling_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Fling"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/fling_bounceback_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Fling with Bounceback"
+            tools:ignore="HardcodedText" />
+
+        <item
+            android:id="@+id/standard_snapback_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Standard Snapback" />
+
+        <item
+            android:id="@+id/spring_snapback_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Spring Snapback" />
+
+        <item
+            android:id="@+id/translation_with_rotation_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Translation &amp; Rotation" />
+
+        <item
+            android:id="@+id/scale_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Scale" />
+
+        <item
+            android:id="@+id/tracking_showcase"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Tracking" />
+    </group>
+
+</menu>
